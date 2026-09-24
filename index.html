@@ -1,0 +1,725 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Junk Command | Junk Removal &amp; Hauling in Miami-Dade</title>
+<meta name="description" content="Junk removal and hauling across Miami-Dade. Text a photo, get a price, and the Junk Command crew does all the lifting. Furniture, appliances, yard waste, construction debris, cleanouts.">
+<meta name="theme-color" content="#B80705">
+<meta property="og:title" content="Junk Command | Junk Removal & Hauling, Miami-Dade">
+<meta property="og:description" content="Text a photo, get a price, we haul it out.">
+<meta property="og:type" content="website">
+<!-- DEPLOY STEP: add og:url and og:image with absolute URLs once the live domain exists -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 3 60 15v18c0 15-12 25-28 28C16 58 4 48 4 33V15z' fill='%23B80705'/%3E%3Cpath d='M32 9 54 18v15c0 12-9 20-22 23-13-3-22-11-22-23V18z' fill='%23fff'/%3E%3Cpath d='M32 17l3.6 7.6 8.4 1-6.2 5.7 1.6 8.3L32 35.5l-7.4 4.1 1.6-8.3-6.2-5.7 8.4-1z' fill='%2314161A'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&family=Big+Shoulders+Display:wght@800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --canvas:#F1F2EF;
+  --panel:#FBFBFA;
+  --ink:#14161A;
+  --ink-2:#4A4F57;
+  --line:#D5D7D2;
+  --line-strong:#8C9098;
+  --red:#B80705;
+  --red-hover:#9A0604;
+  --red-soft:#F6D9D8;
+  --navy:#1B2540;
+  --night:#14161A;
+  --night-2:#1F2228;
+  --on-dark:#F1F2EF;
+  --on-dark-2:#B5B9C0;
+  --display:"Big Shoulders Display","Arial Narrow","Roboto Condensed",Impact,sans-serif;
+  --body:"Barlow",system-ui,sans-serif;
+  --label:"Barlow Condensed","Barlow",sans-serif;
+  --ease-out:cubic-bezier(.16,1,.3,1);
+  --ease-io:cubic-bezier(.65,0,.35,1);
+  --gutter:clamp(16px,4vw,48px);
+  --maxw:1240px;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{overflow-x:hidden;overflow-x:clip;scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;overflow-x:hidden;overflow-x:clip;background:var(--canvas);color:var(--ink);font:400 1.0625rem/1.6 var(--body);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;caret-color:var(--red)}
+::selection{background:var(--red);color:#fff}
+html{scrollbar-color:var(--line-strong) var(--canvas)}
+img,video,svg{display:block;max-width:100%}
+a{color:inherit;text-underline-offset:.2em;text-decoration-thickness:2px}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px;border-radius:2px}
+h1,h2,h3{font-family:var(--display);font-weight:900;text-transform:uppercase;line-height:.92;letter-spacing:-.01em;margin:0;text-wrap:balance}
+p{margin:0}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--gutter)}
+.skip{position:absolute;left:-999px;top:8px;background:var(--ink);color:#fff;padding:10px 14px;z-index:100}
+.skip:focus{left:8px}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* grain environment layer */
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.35;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+main,header,footer{position:relative;z-index:1}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:52px;padding:0 1.4em;border:2px solid var(--red);background:var(--red);color:#fff;font:700 1.15rem/1 var(--label);letter-spacing:.04em;text-transform:uppercase;text-decoration:none;border-radius:3px;cursor:pointer;transition:background-color .25s var(--ease-out),border-color .25s var(--ease-out),color .25s var(--ease-out),transform .25s var(--ease-out),box-shadow .25s var(--ease-out);box-shadow:0 2px 3px rgba(20,22,26,.2),0 8px 18px -10px rgba(20,22,26,.45)}
+.btn:hover{background:var(--red-hover);border-color:var(--red-hover);transform:translateY(-1px)}
+.btn:active{transform:translateY(1px);box-shadow:0 1px 0 rgba(20,22,26,.18)}
+.btn svg{width:1.15em;height:1.15em;flex:none}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--ink);box-shadow:none}
+.btn.ghost:hover{color:var(--canvas);background:var(--ink);border-color:var(--ink)}
+.on-dark .btn.ghost,.bar .btn.ghost{color:var(--on-dark);border-color:var(--on-dark)}
+.on-dark .btn.ghost:hover,.bar .btn.ghost:hover{background:var(--on-dark);border-color:var(--on-dark);color:var(--ink)}
+
+/* header */
+.top{position:sticky;top:0;z-index:50;background:rgba(241,242,239,.9);backdrop-filter:saturate(1.2) blur(10px);-webkit-backdrop-filter:saturate(1.2) blur(10px);border-bottom:1px solid transparent;transition:border-color .3s,box-shadow .3s}
+.top.scrolled{border-bottom-color:var(--line);box-shadow:0 6px 20px -16px rgba(20,22,26,.5)}
+.top .wrap{display:flex;align-items:center;gap:24px;height:76px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;flex:none}
+.brand img{height:64px;width:auto}
+.nav{display:flex;gap:26px;margin-left:auto}
+.nav a{font:600 1.05rem/1 var(--label);letter-spacing:.05em;text-transform:uppercase;text-decoration:none;color:var(--ink-2);padding:8px 0;position:relative}
+.nav a::after{content:"";position:absolute;left:0;right:0;bottom:2px;height:2px;background:var(--red);transform:scaleX(0);transform-origin:left;transition:transform .35s var(--ease-out)}
+.nav a:hover{color:var(--ink)}
+.nav a:hover::after{transform:scaleX(1)}
+.top .btn{min-height:44px;font-size:1.05rem;padding:0 1.1em}
+@media (max-width:960px){.nav{display:none}.top .btn{margin-left:auto}}
+@media (max-width:420px){.top .btn .long{display:none}}
+
+/* hero */
+.hero{padding:clamp(28px,5vw,64px) 0 clamp(56px,8vw,104px)}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:clamp(28px,5vw,72px);align-items:center}
+.hero h1{font-size:clamp(3.4rem,8.6vw,6rem);line-height:.88}
+.hero h1 .ln{display:block;overflow:hidden;padding:.06em 0 .04em;margin:-.06em 0 -.04em}
+.hero h1 .ln>span{display:block}
+.hero h1 .red{color:var(--red)}
+.stripes{display:inline-flex;flex-direction:column;gap:5px;vertical-align:middle;margin-right:.18em;transform:translateY(-.08em)}
+.stripes i{display:block;height:.1em;background:var(--red);border-radius:1px}
+.stripes i:nth-child(1){width:.9em}.stripes i:nth-child(2){width:.7em;margin-left:.2em}.stripes i:nth-child(3){width:.5em;margin-left:.4em}
+.lede{font-size:clamp(1.15rem,1.6vw,1.35rem);line-height:1.5;color:var(--ink-2);max-width:40ch;margin-top:28px}
+.lede strong{color:var(--ink);font-weight:600}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.facts{display:flex;flex-wrap:wrap;gap:10px 28px;margin:34px 0 0;padding:0;list-style:none;font:600 1.05rem/1.2 var(--label);letter-spacing:.04em;text-transform:uppercase;color:var(--ink)}
+.facts li{display:flex;align-items:baseline;gap:8px}
+.facts svg{width:14px;height:14px;color:var(--red);flex:none;transform:translateY(1px)}
+
+.reel{position:relative;justify-self:end;width:min(100%,380px)}
+.reel-frame{position:relative;aspect-ratio:9/16;border-radius:6px;overflow:hidden;background:var(--navy) center/cover no-repeat;box-shadow:0 30px 60px -30px rgba(20,22,26,.55),0 10px 20px -12px rgba(20,22,26,.35)}
+.reel-frame video{width:100%;height:100%;object-fit:cover;will-change:transform}
+.reel::before{content:"";position:absolute;top:18px;left:18px;width:100%;aspect-ratio:9/16;background:var(--red);border-radius:6px;z-index:-1}
+.reel-tag{position:absolute;left:14px;top:14px;display:flex;align-items:center;gap:8px;padding:7px 11px 6px;background:rgba(20,22,26,.78);color:#fff;border-radius:3px;font:700 .95rem/1 var(--label);letter-spacing:.06em;text-transform:uppercase;backdrop-filter:blur(6px)}
+.reel-tag .dot{width:8px;height:8px;border-radius:50%;background:#ff3b30;}
+.reel-play{position:absolute;right:12px;bottom:12px;width:44px;height:44px;border-radius:50%;border:0;background:rgba(20,22,26,.72);color:#fff;display:grid;place-items:center;cursor:pointer;transition:background-color .2s}
+.reel-play:hover{background:var(--red)}
+.reel-play svg{width:18px;height:18px}
+.reel figcaption{margin-top:30px;font-size:.95rem;color:var(--ink-2);padding-left:18px}
+@media (max-width:860px){
+  .hero .wrap{grid-template-columns:1fr}
+  .reel{justify-self:center;width:min(78%,340px);margin-top:12px}
+}
+
+/* stripe band */
+.band{background:var(--night);color:var(--on-dark);overflow:hidden;border-block:6px solid var(--red)}
+.band-track{display:flex;justify-content:center}
+.band-set{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px 30px;padding:22px var(--gutter);font:900 clamp(1.6rem,3vw,2.4rem)/1 var(--display);text-transform:uppercase;letter-spacing:.02em;white-space:nowrap}
+.band-set svg{width:22px;height:22px;color:var(--red);flex:none}
+
+/* section base */
+section{position:relative}
+.sec{padding:clamp(80px,11vw,144px) 0}
+.h2{font-size:clamp(2.6rem,6vw,4.75rem)}
+.intro{font-size:1.2rem;color:var(--ink-2);max-width:46ch;margin-top:22px}
+
+/* haul */
+.haul .wrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(32px,6vw,96px);align-items:start}
+.haul-side{position:sticky;top:110px}
+.haul-photo{margin-top:40px;position:relative;max-width:360px}
+.haul-photo img{border-radius:4px;aspect-ratio:3/4;object-fit:cover;width:100%;filter:saturate(1.05) contrast(1.03)}
+.haul-photo figcaption{font-size:.9rem;color:var(--ink-2);margin-top:10px}
+.list{list-style:none;margin:0;padding:0;border-top:2px solid var(--ink)}
+.list li{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:8px 32px;padding:28px 0 30px;border-bottom:1px solid var(--line-strong);align-items:baseline}
+.list h3{font-size:clamp(2rem,3.6vw,2.9rem);font-weight:800;overflow-wrap:break-word;min-width:0;transition:color .3s var(--ease-out),transform .45s var(--ease-out)}
+.list li:hover h3{color:var(--red);transform:translateX(6px)}
+.list p{color:var(--ink-2);max-width:44ch}
+.list li.else h3{color:var(--red)}
+@media (max-width:860px){
+  .haul .wrap{grid-template-columns:1fr}
+  .haul-side{position:static}
+  .haul-photo{display:none}
+  .list li{grid-template-columns:1fr}
+}
+
+/* loader */
+.load{background:var(--night);color:var(--on-dark)}
+.load .intro{color:var(--on-dark-2)}
+.load-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(32px,5vw,80px);margin-top:56px;align-items:start}
+.items{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr;border-top:1px solid #3A3E46}
+.item{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:16px;padding:12px 0;border-bottom:1px solid #3A3E46}
+.item-name{font:700 1.3rem/1.1 var(--label);letter-spacing:.03em;text-transform:uppercase}
+.item-name small{display:block;font:400 .95rem/1.3 var(--body);letter-spacing:0;text-transform:none;color:var(--on-dark-2);margin-top:3px}
+.stepper{display:flex;align-items:center;gap:4px}
+.stepper button{width:44px;height:44px;border-radius:3px;border:1.5px solid #5A5F69;background:transparent;color:var(--on-dark);display:grid;place-items:center;cursor:pointer;transition:background-color .2s,border-color .2s,transform .15s var(--ease-out)}
+.stepper button:hover{border-color:var(--on-dark);background:var(--night-2)}
+.stepper button:active{transform:scale(.92)}
+.stepper button:disabled{opacity:.35;cursor:default;background:transparent;border-color:#5A5F69;transform:none}
+.stepper button.plus{background:var(--red);border-color:var(--red)}
+.stepper button.plus:hover{background:var(--red-hover);border-color:var(--red-hover)}
+.stepper svg{width:16px;height:16px}
+.count{min-width:2.2ch;text-align:center;font:700 1.35rem/1 var(--label);font-variant-numeric:tabular-nums}
+.count.bump{animation:bump .35s var(--ease-out)}
+@keyframes bump{40%{transform:scale(1.35);color:#fff}}
+
+.truck-card{position:sticky;top:110px;background:var(--night-2);border-radius:6px;padding:clamp(20px,3vw,36px);box-shadow:0 30px 60px -30px rgba(0,0,0,.6)}
+.truck-svg{width:100%;height:auto;overflow:visible}
+#fill{transition:transform .7s var(--ease-out)}
+.truck-svg .shake{transform-origin:320px 250px}
+.truck-svg.bounce .shake{animation:bounce .45s var(--ease-out)}
+@keyframes bounce{30%{transform:translateY(4px)}60%{transform:translateY(-1px)}}
+.readout{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-top:22px;padding-top:20px;border-top:1px solid #3A3E46;flex-wrap:wrap}
+.tier{font:900 clamp(2rem,4vw,3rem)/1 var(--display);text-transform:uppercase}
+.tier.over{color:#FF6B5E}
+.pct{font:700 1.2rem/1 var(--label);color:var(--on-dark-2);font-variant-numeric:tabular-nums;letter-spacing:.04em}
+.gauge{height:8px;background:#30343B;border-radius:4px;margin-top:16px;overflow:hidden;position:relative}
+.gauge i{position:absolute;inset:0;background:var(--red);transform-origin:left;transform:scaleX(0);transition:transform .7s var(--ease-out)}
+.gauge-marks{display:flex;justify-content:space-between;margin-top:8px;font:600 .9rem/1 var(--label);color:var(--on-dark-2);letter-spacing:.04em;text-transform:uppercase}
+.load-note{color:var(--on-dark-2);margin-top:18px;font-size:1rem;max-width:52ch}
+.truck-card .cta-row{margin-top:22px}
+.btn[aria-disabled="true"]{opacity:.45;pointer-events:none}
+@media (max-width:900px){.load-grid{grid-template-columns:1fr}.truck-card{position:static;order:-1}}
+
+/* steps */
+.steps-head{display:flex;justify-content:space-between;align-items:end;gap:32px;flex-wrap:wrap}
+.steps{list-style:none;padding:0;margin:56px 0 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(16px,3vw,40px);counter-reset:s}
+.step{counter-increment:s}
+.step-img{position:relative;aspect-ratio:4/5;border-radius:4px;overflow:hidden;background:var(--navy)}
+.step-img img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease-out)}
+.step:hover .step-img img{transform:scale(1.04)}
+.step-num{position:absolute;left:0;bottom:0;background:var(--red);color:#fff;font:900 2.6rem/1 var(--display);padding:12px 16px 8px}
+.step-num::before{content:counter(s)}
+.step h3{font-size:clamp(1.8rem,2.6vw,2.3rem);margin-top:22px;font-weight:800}
+.step p{color:var(--ink-2);margin-top:10px;max-width:36ch}
+@media (max-width:820px){.steps{grid-template-columns:1fr;gap:48px}.step-img{aspect-ratio:4/3}}
+
+/* area */
+.area{background:var(--red);color:#fff;overflow:hidden}
+.area .h2{color:#fff}
+.area .intro{color:#FBE3E2}
+.area-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(32px,6vw,96px);align-items:start}
+.towns{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:4px 0;font:800 clamp(1.7rem,3.3vw,2.6rem)/1.15 var(--display);text-transform:uppercase}
+.towns li{display:flex;align-items:center}
+.towns svg{width:.34em;height:.34em;margin:0 .4em;opacity:.55;flex:none}
+.area-stars{position:absolute;right:-40px;top:-30px;width:320px;opacity:.12;pointer-events:none}
+@media (max-width:860px){.area-grid{grid-template-columns:1fr}}
+
+/* faq */
+.faq-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(32px,6vw,96px);align-items:start}
+.faq-list{border-top:2px solid var(--ink)}
+.faq-list details{border-bottom:1px solid var(--line-strong)}
+.faq-list summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 0;font:700 1.45rem/1.2 var(--label);letter-spacing:.01em}
+.faq-list summary::-webkit-details-marker{display:none}
+.faq-list summary:hover{color:var(--red)}
+.faq-list .pm{width:28px;height:28px;flex:none;position:relative}
+.faq-list .pm::before,.faq-list .pm::after{content:"";position:absolute;left:4px;right:4px;top:13px;height:2.5px;background:currentColor;transition:transform .35s var(--ease-out)}
+.faq-list .pm::after{transform:rotate(90deg)}
+.faq-list details[open] .pm::after{transform:rotate(0)}
+.faq-list .ans{padding:0 0 26px;color:var(--ink-2);max-width:60ch}
+@media (max-width:860px){.faq-grid{grid-template-columns:1fr}}
+
+/* final cta */
+.final{background:var(--night);color:var(--on-dark)}
+.final-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,6vw,96px);align-items:start}
+.final .h2{font-size:clamp(3rem,7vw,5.5rem)}
+.final .h2 .red{color:var(--red)}
+.big-phone{display:inline-block;margin-top:30px;font:900 clamp(2.2rem,5vw,3.6rem)/1 var(--display);color:var(--on-dark);text-decoration:none;border-bottom:4px solid var(--red);padding-bottom:6px;transition:color .25s}
+.big-phone:hover{color:#fff;border-color:#fff}
+.final .intro{color:var(--on-dark-2)}
+.final .cta-row{margin-top:30px}
+form{background:var(--night-2);border-radius:6px;padding:clamp(22px,3vw,36px);display:grid;gap:18px;box-shadow:0 30px 60px -30px rgba(0,0,0,.6)}
+.form-title{font:900 2rem/1 var(--display);text-transform:uppercase}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{display:grid;align-content:start;gap:7px;font:700 1rem/1 var(--label);letter-spacing:.05em;text-transform:uppercase;color:var(--on-dark-2)}
+input,textarea{font:400 1.05rem/1.4 var(--body);color:var(--on-dark);background:var(--night);border:1.5px solid #5A5F69;border-radius:3px;padding:13px 14px;width:100%;transition:border-color .2s,box-shadow .2s}
+input::placeholder,textarea::placeholder{color:#9EA3AB}
+input:hover,textarea:hover{border-color:#8C9098}
+input:focus,textarea:focus{outline:none;border-color:var(--red);box-shadow:0 0 0 3px rgba(184,7,5,.35)}
+input[aria-invalid="true"],textarea[aria-invalid="true"]{border-color:#FF6B5E}
+.err{font:400 .95rem/1.3 var(--body);letter-spacing:0;text-transform:none;color:#FF8A80;min-height:0}
+textarea{min-height:110px;resize:vertical}
+form .btn{width:100%}
+.form-foot{font-size:.95rem;color:var(--on-dark-2)}
+.done{display:none;text-align:left;gap:14px}
+form.sent>*:not(.done){display:none}
+form.sent .done{display:grid}
+.done svg{width:48px;height:48px;color:var(--red)}
+@media (max-width:860px){.final-grid{grid-template-columns:1fr}}
+@media (max-width:460px){.row2{grid-template-columns:1fr}}
+
+/* footer */
+.foot{background:var(--night);color:var(--on-dark-2);border-top:1px solid #30343B;padding:48px 0 110px}
+.foot .wrap{display:flex;flex-wrap:wrap;gap:32px;align-items:center;justify-content:space-between}
+.foot img{height:84px;width:auto}
+.foot-links{display:flex;flex-wrap:wrap;gap:12px 28px;font:600 1.05rem/1 var(--label);letter-spacing:.05em;text-transform:uppercase}
+.foot-links a{text-decoration:none;color:var(--on-dark)}
+.foot-links a:hover{color:#FF6B5E}
+.foot small{display:block;width:100%;font-size:.9rem}
+@media (min-width:861px){.foot{padding-bottom:48px}}
+
+/* mobile action bar */
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:none;gap:10px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(20,22,26,.94);backdrop-filter:blur(8px);transform:translateY(110%);transition:transform .45s var(--ease-out)}
+.bar.show{transform:none}
+.bar .btn{flex:1;min-height:50px;font-size:1.05rem;padding:0 .8em}
+@media (max-width:860px){.bar{display:flex}}
+
+/* reveals */
+.js .rv{opacity:0;transform:translateY(28px);transition:opacity .9s var(--ease-out),transform .9s var(--ease-out)}
+.js .rv.in{opacity:1;transform:none}
+.js .rv-d1{transition-delay:.08s}.js .rv-d2{transition-delay:.16s}.js .rv-d3{transition-delay:.24s}
+.js .rv.in.settled{transition-delay:0s}
+.js .hero h1 .ln>span{transform:translateY(105%);transition:transform 1s var(--ease-out)}
+.js .hero h1 .ln:nth-child(2)>span{transition-delay:.09s}
+.js .hero h1 .ln:nth-child(3)>span{transition-delay:.18s}
+.js.loaded .hero h1 .ln>span{transform:none}
+
+@media (pointer:coarse){.btn{min-height:48px}}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;transition-delay:0s!important;scroll-behavior:auto!important}
+  .js .rv{opacity:1;transform:none}
+  .js .hero h1 .ln>span{transform:none}
+}
+body.paused *,body.paused *::before,body.paused *::after{animation-play-state:paused!important}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" d="M12 1.8l2.9 6.6 7.1.7-5.4 4.8 1.6 7L12 17.2 5.8 20.9l1.6-7L2 9.1l7.1-.7z"/></symbol>
+    <symbol id="i-msg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" d="M4 5h16v11H9l-5 4z"/><circle cx="9" cy="10.5" r="1.2" fill="currentColor"/><circle cx="12.5" cy="10.5" r="1.2" fill="currentColor"/><circle cx="16" cy="10.5" r="1.2" fill="currentColor"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" d="M6.5 3h3l1.5 4.5-2.2 1.4a11 11 0 0 0 6.3 6.3l1.4-2.2L21 14.5v3A2.5 2.5 0 0 1 18.5 20 15.5 15.5 0 0 1 4 5.5 2.5 2.5 0 0 1 6.5 3z"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 16 16"><path stroke="currentColor" stroke-width="2.4" stroke-linecap="round" d="M8 2.5v11M2.5 8h11"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 16 16"><path stroke="currentColor" stroke-width="2.4" stroke-linecap="round" d="M2.5 8h11"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 16 16"><path fill="currentColor" d="M3.5 2h3v12h-3zM9.5 2h3v12h-3z"/></symbol>
+    <symbol id="i-play" viewBox="0 0 16 16"><path fill="currentColor" d="M4 2.2 13.5 8 4 13.8z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 48 48"><circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" stroke-width="3"/><path fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" d="M14 24.5l7 7 13-14"/></symbol>
+  </defs>
+</svg>
+
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="brand" href="#main" aria-label="Junk Command home"><img src="assets/logo-sm.webp" width="180" height="173" alt="Junk Command, Junk Removal and Hauling"></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#haul">What we haul</a>
+      <a href="#load">Pricing</a>
+      <a href="#how">How it works</a>
+      <a href="#area">Service area</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn" href="tel:+13050000000" data-phone-link><svg aria-hidden="true"><use href="#i-phone"/></svg><span class="long" data-phone>(305) 000-0000</span><span class="vh">Call Junk Command</span></a>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+
+  <section class="hero" aria-labelledby="hero-h">
+    <div class="wrap">
+      <div>
+        <h1 id="hero-h">
+          <span class="ln"><span>Call it in.</span></span>
+          <span class="ln"><span class="red"><span class="stripes" aria-hidden="true"><i></i><i></i><i></i></span>We haul</span></span>
+          <span class="ln"><span>it out.</span></span>
+        </h1>
+        <p class="lede rv rv-d1">Junk removal and hauling across Miami-Dade. <strong>Text us a photo, get a straight price,</strong> and our crew does all the lifting.</p>
+        <div class="cta-row rv rv-d2">
+          <a class="btn" href="sms:+13050000000" data-sms-link><svg aria-hidden="true"><use href="#i-msg"/></svg>Text a photo for a price</a>
+          <a class="btn ghost" href="tel:+13050000000" data-phone-link><svg aria-hidden="true"><use href="#i-phone"/></svg>Call us</a>
+        </div>
+        <ul class="facts rv rv-d3">
+          <li><svg aria-hidden="true"><use href="#i-star"/></svg>Price before we load</li>
+          <li><svg aria-hidden="true"><use href="#i-star"/></svg>We do the lifting</li>
+          <li><svg aria-hidden="true"><use href="#i-star"/></svg>Local Miami crew</li>
+        </ul>
+      </div>
+      <figure class="reel rv rv-d2">
+        <div class="reel-frame" style="background-image:url('assets/job-poster.webp')">
+          <video id="reel" muted loop playsinline preload="none" poster="assets/job-poster.webp" aria-label="Sped-up video of the Junk Command crew clearing a driveway pile of trash bags and boxes into their pickup truck">
+            <source src="assets/job-timelapse.mp4" type="video/mp4">
+          </video>
+          <span class="reel-tag"><span class="dot" aria-hidden="true"></span>Real job</span>
+          <button class="reel-play" type="button" aria-label="Pause video"><svg aria-hidden="true"><use href="#i-pause"/></svg></button>
+        </div>
+        <figcaption>A driveway pile, start to finish. Filmed by our crew, sped up.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <div class="band" aria-hidden="true">
+    <div class="band-track">
+      <div class="band-set"><span>Furniture</span><svg><use href="#i-star"/></svg><span>Appliances</span><svg><use href="#i-star"/></svg><span>Yard waste</span><svg><use href="#i-star"/></svg><span>Construction debris</span><svg><use href="#i-star"/></svg><span>Cleanouts</span></div>
+    </div>
+  </div>
+
+  <section class="haul sec" id="haul" aria-labelledby="haul-h">
+    <div class="wrap">
+      <div class="haul-side">
+        <h2 class="h2 rv" id="haul-h">If it fits on the truck, it's gone.</h2>
+        <p class="intro rv rv-d1">Point at it. We carry it out of the garage, the backyard, or the upstairs bedroom and drive it away.</p>
+        <figure class="haul-photo rv rv-d2">
+          <img src="assets/job-crew.webp" width="900" height="1200" loading="lazy" alt="A Junk Command crew member smiling while carrying two full trash bags down a side yard">
+          <figcaption>Two bags a trip, every trip.</figcaption>
+        </figure>
+      </div>
+      <ul class="list">
+        <li class="rv"><h3>Furniture</h3><p>Couches, sectionals, recliners, dressers, desks, bed frames, mattresses. Heavy and awkward is our job, not yours.</p></li>
+        <li class="rv"><h3>Appliances</h3><p>Fridges, freezers, washers, dryers, stoves, and old grills.</p></li>
+        <li class="rv"><h3>Yard waste</h3><p>Branches, palm fronds, bagged clippings, and the pile left after the storm.</p></li>
+        <li class="rv"><h3>Construction debris</h3><p>Drywall, tile, wood, old cabinets, and whatever the remodel left behind.</p></li>
+        <li class="rv"><h3>Cleanouts</h3><p>Garages, sheds, move-outs, rentals between tenants, and full estate cleanouts.</p></li>
+        <li class="rv else"><h3>Something else?</h3><p>Send a photo. If we can take it, you get a price.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="load sec on-dark" id="load" aria-labelledby="load-h">
+    <div class="wrap">
+      <h2 class="h2 rv" id="load-h">Load the truck.</h2>
+      <p class="intro rv rv-d1">You pay for the space your stuff takes up on the truck. Add what's going and see roughly how much truck you need. Then text us the list for a real price.</p>
+      <div class="load-grid">
+        <ul class="items" id="items" aria-label="Items to haul"></ul>
+        <div class="truck-card rv">
+          <svg class="truck-svg" id="truck" viewBox="0 0 640 300" role="img" aria-labelledby="truck-t">
+            <title id="truck-t">Pickup truck bed that fills up as you add items</title>
+            <defs>
+              <clipPath id="bedClip"><rect x="46" y="40" width="284" height="158"/></clipPath>
+              <pattern id="junkPat" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><rect width="14" height="14" fill="#B80705"/><rect width="6" height="14" fill="#9A0604"/></pattern>
+            </defs>
+            <g class="shake">
+              <line x1="0" y1="270" x2="640" y2="270" stroke="#3A3E46" stroke-width="2"/>
+              <g clip-path="url(#bedClip)">
+                <g id="fill" style="transform:translateY(200px)">
+                  <path d="M46 8 C60 -6 74 4 88 -4 C100 -12 116 2 130 -2 C146 -8 158 6 174 0 C190 -10 204 2 220 -4 C236 -10 248 4 264 -2 C280 -8 294 6 310 0 C318 -3 326 2 330 4 L330 220 L46 220 Z" fill="url(#junkPat)"/>
+                </g>
+              </g>
+              <path d="M40 120 H334 V206 H40 Z" fill="none" stroke="#F1F2EF" stroke-width="5" stroke-linejoin="round"/>
+              <path d="M40 150 H334" stroke="#F1F2EF" stroke-width="2" opacity=".35"/>
+              <path d="M338 80 V206 M350 80 V206 M338 84 H350 M338 118 H350" stroke="#F1F2EF" stroke-width="4" stroke-linecap="round"/>
+              <path d="M356 206 V92 C356 76 364 64 382 62 L468 60 C480 60 488 64 494 74 L528 128 L596 138 C608 140 616 148 616 162 V206 Z" fill="#FBFBFA" stroke="#FBFBFA" stroke-width="4" stroke-linejoin="round"/>
+              <path d="M374 124 V90 C374 82 380 78 388 78 H420 V124 Z M432 124 V78 H466 C472 78 476 81 480 87 L504 124 Z" fill="#2A3040"/>
+              <path d="M34 206 H622 V226 C622 232 618 236 612 236 H44 C38 236 34 232 34 226 Z" fill="#FBFBFA"/>
+              <rect x="598" y="150" width="20" height="14" rx="3" fill="#FFC857"/>
+              <rect x="40" y="206" width="12" height="10" fill="#B80705"/>
+              <path d="M600 190 H630 V214 H600" fill="none" stroke="#14161A" stroke-width="5"/>
+              <rect x="426" y="140" width="22" height="6" rx="3" fill="#8C9098"/>
+              <g><circle cx="138" cy="236" r="36" fill="#14161A" stroke="#3A3E46" stroke-width="3"/><circle cx="138" cy="236" r="16" fill="#8C9098"/><circle cx="138" cy="236" r="6" fill="#14161A"/></g>
+              <g><circle cx="514" cy="236" r="36" fill="#14161A" stroke="#3A3E46" stroke-width="3"/><circle cx="514" cy="236" r="16" fill="#8C9098"/><circle cx="514" cy="236" r="6" fill="#14161A"/></g>
+            </g>
+          </svg>
+          <div class="readout" aria-live="polite">
+            <span class="tier" id="tier">Empty truck</span>
+            <span class="pct" id="pct">0% full</span>
+          </div>
+          <div class="gauge" aria-hidden="true"><i id="gauge"></i></div>
+          <div class="gauge-marks" aria-hidden="true"><span>Min</span><span>1/4</span><span>1/2</span><span>3/4</span><span>Full</span></div>
+          <p class="load-note" id="load-note">Tap the plus buttons to add what's going.</p>
+          <div class="cta-row">
+            <a class="btn" id="send-list" href="sms:+13050000000" aria-disabled="true"><svg aria-hidden="true"><use href="#i-msg"/></svg>Text us this list</a>
+            <button class="btn ghost" id="reset" type="button">Start over</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="how" aria-labelledby="how-h">
+    <div class="wrap">
+      <div class="steps-head">
+        <h2 class="h2 rv" id="how-h">Three texts and it's gone.</h2>
+        <a class="btn rv rv-d1" href="sms:+13050000000" data-sms-link><svg aria-hidden="true"><use href="#i-msg"/></svg>Start with a photo</a>
+      </div>
+      <ol class="steps">
+        <li class="step rv">
+          <div class="step-img"><img src="assets/job-before.webp" width="900" height="1166" loading="lazy" alt="A pile of black trash bags, boxes, and junk stacked against a house before pickup"><span class="step-num" aria-hidden="true"></span></div>
+          <h3>Text us a photo</h3>
+          <p>Snap the pile and send it with your zip code. One photo is enough, more helps.</p>
+        </li>
+        <li class="step rv rv-d1">
+          <div class="step-img"><img src="assets/job-carry.webp" width="900" height="1200" loading="lazy" alt="A crew member carrying two big trash bags past a parked car to the truck"><span class="step-num" aria-hidden="true"></span></div>
+          <h3>Get your price</h3>
+          <p>We text back a price based on how much truck it takes. You pick a time that works.</p>
+        </li>
+        <li class="step rv rv-d2">
+          <div class="step-img"><img src="assets/job-loaded.webp" width="900" height="1150" loading="lazy" alt="The bed of the Junk Command pickup loaded with boxes, bags, and an old appliance"><span class="step-num" aria-hidden="true"></span></div>
+          <h3>We haul it out</h3>
+          <p>The crew shows up, carries everything to the truck, and drives it away. You don't lift a thing.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="area sec" id="area" aria-labelledby="area-h">
+    <svg class="area-stars" viewBox="0 0 100 100" aria-hidden="true"><use href="#i-star"/></svg>
+    <div class="wrap area-grid">
+      <div>
+        <h2 class="h2 rv" id="area-h">All over Miami-Dade.</h2>
+        <p class="intro rv rv-d1">From Aventura down to Homestead. Don't see your neighborhood? Text us anyway.</p>
+      </div>
+      <ul class="towns rv rv-d1" aria-label="Areas we serve">
+        <li>Miami<svg aria-hidden="true"><use href="#i-star"/></svg></li><li>Hialeah<svg aria-hidden="true"><use href="#i-star"/></svg></li><li>Kendall<svg aria-hidden="true"><use href="#i-star"/></svg></li><li>Doral<svg aria-hidden="true"><use href="#i-star"/></svg></li><li>Miami Gardens<svg aria-hidden="true"><use href="#i-star"/></svg></li><li>Coral Gables<svg aria-hidden="true"><use href="#i-star"/></svg></li><li>Miami Beach<svg aria-hidden="true"><use href="#i-star"/></svg></li><li>North Miami<svg aria-hidden="true"><use href="#i-star"/></svg></li><li>Aventura<svg aria-hidden="true"><use href="#i-star"/></svg></li><li>Miami Lakes<svg aria-hidden="true"><use href="#i-star"/></svg></li><li>Westchester<svg aria-hidden="true"><use href="#i-star"/></svg></li><li>Sweetwater<svg aria-hidden="true"><use href="#i-star"/></svg></li><li>Cutler Bay<svg aria-hidden="true"><use href="#i-star"/></svg></li><li>Palmetto Bay<svg aria-hidden="true"><use href="#i-star"/></svg></li><li>Homestead</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec" id="faq" aria-labelledby="faq-h">
+    <div class="wrap faq-grid">
+      <div>
+        <h2 class="h2 rv" id="faq-h">Straight answers.</h2>
+        <p class="intro rv rv-d1">Still wondering about something? Text us. A real person on the crew answers.</p>
+      </div>
+      <div class="faq-list rv">
+        <details open>
+          <summary>How much does it cost?<span class="pm" aria-hidden="true"></span></summary>
+          <p class="ans">It depends on how much space your stuff takes up on the truck. Text a photo and you'll have a price before anyone shows up.</p>
+        </details>
+        <details>
+          <summary>Do I have to carry anything out?<span class="pm" aria-hidden="true"></span></summary>
+          <p class="ans">No. Show us what's going and we carry it, whether it's in the backyard, the garage, or up a flight of stairs.</p>
+        </details>
+        <details>
+          <summary>How soon can you come?<span class="pm" aria-hidden="true"></span></summary>
+          <p class="ans">Text us and we'll give you the soonest time we have open. Tell us if it's urgent.</p>
+        </details>
+        <details>
+          <summary>Do I need to be home?<span class="pm" aria-hidden="true"></span></summary>
+          <p class="ans">Not always. If the items are outside or you can leave us access, we can handle it while you're out. Set it up over text.</p>
+        </details>
+        <details>
+          <summary>Is there anything you won't take?<span class="pm" aria-hidden="true"></span></summary>
+          <p class="ans">Hazardous stuff like paint, chemicals, fuel, and propane tanks usually can't go on the truck. If you're not sure, send a photo and ask.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="final sec on-dark" id="contact" aria-labelledby="final-h">
+    <div class="wrap final-grid">
+      <div>
+        <h2 class="h2 rv" id="final-h">Got junk?<br><span class="red">Give the command.</span></h2>
+        <p class="intro rv rv-d1">The fastest way to a price is a text with a photo. Or call and tell us what's going.</p>
+        <a class="big-phone rv rv-d2" href="tel:+13050000000" data-phone-link data-phone>(305) 000-0000</a>
+        <div class="cta-row rv rv-d2">
+          <a class="btn" href="sms:+13050000000" data-sms-link><svg aria-hidden="true"><use href="#i-msg"/></svg>Text a photo</a>
+          <a class="btn ghost" href="https://www.instagram.com/junkcommandmiami/" rel="noopener" target="_blank">See us on Instagram</a>
+        </div>
+      </div>
+      <form id="quote" class="rv rv-d1" novalidate>
+        <p class="form-title">Or ask for a callback</p>
+        <label>Your name
+          <input name="name" autocomplete="name" placeholder="First name is fine" required>
+          <span class="err" id="err-name" aria-live="polite"></span>
+        </label>
+        <div class="row2">
+          <label>Phone
+            <input name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(305) 555-0134" required>
+            <span class="err" id="err-phone" aria-live="polite"></span>
+          </label>
+          <label>Zip code
+            <input name="zip" autocomplete="postal-code" inputmode="numeric" maxlength="5" placeholder="33155">
+          </label>
+        </div>
+        <label>What's going?
+          <textarea name="items" placeholder="Old couch, a fridge, and about 10 bags from the garage"></textarea>
+        </label>
+        <button class="btn" type="submit">Get my price</button>
+        <p class="form-foot">We'll call or text you back. No spam, no sales calls.</p>
+        <div class="done" role="status">
+          <svg aria-hidden="true"><use href="#i-check"/></svg>
+          <p class="form-title" id="done-title">Got it.</p>
+          <p class="form-foot" id="done-text">We'll reach out soon with a price.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <img src="assets/logo-sm.webp" width="180" height="173" alt="Junk Command" loading="lazy">
+    <nav class="foot-links" aria-label="Footer">
+      <a href="#haul">What we haul</a>
+      <a href="#load">Pricing</a>
+      <a href="#how">How it works</a>
+      <a href="#faq">FAQ</a>
+      <a href="https://www.instagram.com/junkcommandmiami/" rel="noopener" target="_blank">Instagram</a>
+    </nav>
+    <small>Junk Command. Junk removal and hauling, Miami-Dade County, Florida. &copy; 2026</small>
+  </div>
+</footer>
+
+<div class="bar" id="bar">
+  <a class="btn" href="sms:+13050000000" data-sms-link><svg aria-hidden="true"><use href="#i-msg"/></svg>Text a photo</a>
+  <a class="btn ghost" href="tel:+13050000000" data-phone-link><svg aria-hidden="true"><use href="#i-phone"/></svg>Call</a>
+</div>
+
+<script>
+(function(){
+  // One place to change the business phone number.
+  var PHONE_DIGITS = '3050000000';
+  var PHONE_PRETTY = '(305) 000-0000';
+
+  var doc = document.documentElement;
+  doc.classList.add('js');
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)');
+
+  document.querySelectorAll('[data-phone-link]').forEach(function(a){ a.href = 'tel:+1' + PHONE_DIGITS; });
+  document.querySelectorAll('[data-sms-link]').forEach(function(a){ a.href = 'sms:+1' + PHONE_DIGITS; });
+  document.querySelectorAll('[data-phone]').forEach(function(el){ el.textContent = PHONE_PRETTY; });
+
+  requestAnimationFrame(function(){ requestAnimationFrame(function(){ doc.classList.add('loaded'); }); });
+
+  // Header shadow + mobile bar
+  var top = document.getElementById('top'), bar = document.getElementById('bar');
+  var hero = document.querySelector('.hero'), contact = document.getElementById('contact');
+  var heroOut = false, contactIn = false, lastScrolled = null, lastBar = null;
+  function syncChrome(){
+    var s = scrollY > 8;
+    if (s !== lastScrolled){ top.classList.toggle('scrolled', s); lastScrolled = s; }
+    var b = heroOut && !contactIn;
+    if (b !== lastBar){ bar.classList.toggle('show', b); lastBar = b; }
+  }
+  addEventListener('scroll', syncChrome, {passive:true});
+  new IntersectionObserver(function(e){ heroOut = !e[0].isIntersecting; syncChrome(); }, {rootMargin:'-40% 0px 0px 0px'}).observe(hero);
+  new IntersectionObserver(function(e){ contactIn = e[0].isIntersecting; syncChrome(); }).observe(contact);
+  syncChrome();
+
+  // Reveals
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if (!en.isIntersecting) return;
+      var el = en.target; el.classList.add('in'); io.unobserve(el);
+      setTimeout(function(){ el.classList.add('settled'); }, 1300);
+    });
+  }, {rootMargin:'0px 0px -8% 0px', threshold:.12});
+  document.querySelectorAll('.rv').forEach(function(el){ io.observe(el); });
+
+  // Reel: play only when on screen, honor reduced motion, user can pause
+  var reel = document.getElementById('reel'), playBtn = document.querySelector('.reel-play');
+  var userPaused = reduce.matches, reelVisible = false;
+  function setBtn(){
+    var playing = !reel.paused;
+    playBtn.setAttribute('aria-label', playing ? 'Pause video' : 'Play video');
+    playBtn.innerHTML = '<svg aria-hidden="true"><use href="#i-' + (playing ? 'pause' : 'play') + '"/></svg>';
+  }
+  function syncReel(){
+    if (reelVisible && !userPaused && !document.hidden){ reel.preload = 'auto'; var p = reel.play(); if (p && p.catch) p.catch(function(){}); }
+    else reel.pause();
+  }
+  reel.addEventListener('play', setBtn); reel.addEventListener('pause', setBtn);
+  reel.addEventListener('error', function(){ reel.style.display = 'none'; playBtn.hidden = true; });
+  playBtn.addEventListener('click', function(){ userPaused = !reel.paused; if (!userPaused) { reel.preload = 'auto'; reel.play(); } else reel.pause(); });
+  new IntersectionObserver(function(e){ reelVisible = e[0].isIntersecting; syncReel(); }, {threshold:.25}).observe(reel);
+  reduce.addEventListener('change', function(e){ if (e.matches){ userPaused = true; syncReel(); } });
+  setBtn();
+
+  document.addEventListener('visibilitychange', function(){
+    document.body.classList.toggle('paused', document.hidden); syncReel();
+  });
+
+  // Load the truck
+  var ITEMS = [
+    {id:'couch',  name:'Couch or sectional',   hint:'Recliners and loveseats count too', size:12},
+    {id:'mattress',name:'Mattress set',        hint:'Mattress plus box spring',         size:8},
+    {id:'appliance',name:'Appliance',          hint:'Fridge, washer, dryer, stove',     size:8},
+    {id:'dresser',name:'Dresser, desk, or table', hint:'Any mid-size furniture piece', size:6},
+    {id:'bags',   name:'Bags of junk',         hint:'Per 5 big trash bags',             size:5},
+    {id:'boxes',  name:'Boxes',                hint:'Per 5 moving boxes',               size:4},
+    {id:'yard',   name:'Yard waste pile',      hint:'About the size of a car trunk',    size:10},
+    {id:'debris', name:'Construction debris',  hint:'Per wheelbarrow load',             size:5}
+  ];
+  var counts = {}, list = document.getElementById('items');
+  ITEMS.forEach(function(it){
+    counts[it.id] = 0;
+    var li = document.createElement('li'); li.className = 'item';
+    li.innerHTML = '<span class="item-name" id="n-'+it.id+'">'+it.name+'<small>'+it.hint+'</small></span>'+
+      '<span class="stepper">'+
+        '<button type="button" class="minus" data-id="'+it.id+'" data-d="-1" aria-label="Remove one: '+it.name+'" disabled><svg aria-hidden="true"><use href="#i-minus"/></svg></button>'+
+        '<span class="count" id="c-'+it.id+'" aria-live="polite">0</span>'+
+        '<button type="button" class="plus" data-id="'+it.id+'" data-d="1" aria-label="Add one: '+it.name+'"><svg aria-hidden="true"><use href="#i-plus"/></svg></button>'+
+      '</span>';
+    list.appendChild(li);
+  });
+
+  var fill = document.getElementById('fill'), truck = document.getElementById('truck');
+  var tierEl = document.getElementById('tier'), pctEl = document.getElementById('pct');
+  var gauge = document.getElementById('gauge'), note = document.getElementById('load-note');
+  var send = document.getElementById('send-list');
+
+  function tierFor(p){
+    if (p === 0) return 'Empty truck';
+    if (p <= 12) return 'Minimum load';
+    if (p <= 37) return 'About 1/4 truck';
+    if (p <= 62) return 'About 1/2 truck';
+    if (p <= 87) return 'About 3/4 truck';
+    if (p <= 100) return 'Full truck';
+    return 'More than a truck';
+  }
+  function render(bump){
+    var total = 0, lines = [];
+    ITEMS.forEach(function(it){
+      var n = counts[it.id]; total += n * it.size;
+      if (n) lines.push(n + ' x ' + it.name + (it.id==='bags'||it.id==='boxes' ? ' (sets of 5)' : ''));
+    });
+    var shown = Math.min(total, 150);
+    // bed floor y=198, rail top y=122, heap cap y=70
+    var y = total === 0 ? 200 : (total <= 100 ? 198 - shown * 0.76 : 122 - (shown - 100) * 1.04);
+    fill.style.transform = 'translateY(' + y.toFixed(1) + 'px)';
+    gauge.style.transform = 'scaleX(' + Math.min(1, total / 100) + ')';
+    tierEl.textContent = tierFor(total);
+    tierEl.classList.toggle('over', total > 100);
+    pctEl.textContent = (total > 100 ? '100%+' : total + '%') + ' full';
+    note.textContent = total === 0 ? "Tap the plus buttons to add what's going." :
+      total > 100 ? "That's more than one truck holds. No problem, we make a second trip." :
+      'A rough guide, not a quote. Text us the list and a photo and we send a firm price.';
+    var body = 'Hi Junk Command! Looking for a price on:\n' + lines.join('\n') + '\n(Estimate: ' + tierFor(total) + ')';
+    send.href = 'sms:+1' + PHONE_DIGITS + '?&body=' + encodeURIComponent(body);
+    send.setAttribute('aria-disabled', total === 0 ? 'true' : 'false');
+    if (total === 0) send.setAttribute('tabindex','-1'); else send.removeAttribute('tabindex');
+    if (bump && !reduce.matches){ truck.classList.remove('bounce'); void truck.getBoundingClientRect(); truck.classList.add('bounce'); }
+  }
+  list.addEventListener('click', function(e){
+    var b = e.target.closest('button'); if (!b) return;
+    var id = b.dataset.id, d = +b.dataset.d;
+    counts[id] = Math.max(0, Math.min(20, counts[id] + d));
+    var c = document.getElementById('c-' + id);
+    c.textContent = counts[id];
+    c.classList.remove('bump'); void c.offsetWidth; c.classList.add('bump');
+    b.parentNode.querySelector('.minus').disabled = counts[id] === 0;
+    b.parentNode.querySelector('.plus').disabled = counts[id] === 20;
+    render(d > 0);
+  });
+  document.getElementById('reset').addEventListener('click', function(){
+    ITEMS.forEach(function(it){ counts[it.id] = 0; document.getElementById('c-'+it.id).textContent = '0'; });
+    list.querySelectorAll('.minus').forEach(function(m){ m.disabled = true; });
+    list.querySelectorAll('.plus').forEach(function(m){ m.disabled = false; });
+    render(false);
+  });
+  render(false);
+
+  // Callback form (demo: no backend connected yet)
+  var form = document.getElementById('quote');
+  function setErr(input, id, msg){
+    document.getElementById(id).textContent = msg;
+    input.setAttribute('aria-invalid', msg ? 'true' : 'false');
+    if (msg) input.setAttribute('aria-describedby', id); else input.removeAttribute('aria-describedby');
+  }
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var nameIn = form.elements.namedItem('name'), phoneIn = form.elements.namedItem('phone');
+    var name = nameIn.value.trim(), phone = phoneIn.value.replace(/\D/g,'');
+    setErr(nameIn, 'err-name', name ? '' : 'Add your name so we know who to ask for.');
+    setErr(phoneIn, 'err-phone', phone.length >= 10 ? '' : 'Add a 10-digit phone number so we can text you back.');
+    if (!name) { nameIn.focus(); return; }
+    if (phone.length < 10) { phoneIn.focus(); return; }
+    document.getElementById('done-title').textContent = 'Got it, ' + name.split(' ')[0] + '.';
+    document.getElementById('done-text').textContent = "We'll call or text you back at " + phoneIn.value.trim() + ' with a price.';
+    form.classList.add('sent');
+  });
+})();
+</script>
+</body>
+</html>
