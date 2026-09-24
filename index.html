@@ -129,9 +129,6 @@ section{position:relative}
 /* haul */
 .haul .wrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(32px,6vw,96px);align-items:start}
 .haul-side{position:sticky;top:110px}
-.haul-photo{margin-top:40px;position:relative;max-width:360px}
-.haul-photo img{border-radius:4px;aspect-ratio:3/4;object-fit:cover;width:100%;filter:saturate(1.05) contrast(1.03)}
-.haul-photo figcaption{font-size:.9rem;color:var(--ink-2);margin-top:10px}
 .list{list-style:none;margin:0;padding:0;border-top:2px solid var(--ink)}
 .list li{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:8px 32px;padding:28px 0 30px;border-bottom:1px solid var(--line-strong);align-items:baseline}
 .list h3{font-size:clamp(2rem,3.6vw,2.9rem);font-weight:800;overflow-wrap:break-word;min-width:0;transition:color .3s var(--ease-out),transform .45s var(--ease-out)}
@@ -141,8 +138,7 @@ section{position:relative}
 @media (max-width:860px){
   .haul .wrap{grid-template-columns:1fr}
   .haul-side{position:static}
-  .haul-photo{display:none}
-  .list li{grid-template-columns:1fr}
+    .list li{grid-template-columns:1fr}
 }
 
 /* loader */
@@ -360,10 +356,6 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
       <div class="haul-side">
         <h2 class="h2 rv" id="haul-h">If it fits on the truck, it's gone.</h2>
         <p class="intro rv rv-d1">Point at it. We carry it out of the garage, the backyard, or the upstairs bedroom and drive it away.</p>
-        <figure class="haul-photo rv rv-d2">
-          <img src="assets/job-truck.webp" width="900" height="1200" loading="lazy" alt="A Junk Command crew member swinging a trash bag into the back of the white pickup on a palm-lined Miami street">
-          <figcaption>Curb to truck bed, one trip at a time.</figcaption>
-        </figure>
       </div>
       <ul class="list">
         <li class="rv"><h3>Furniture</h3><p>Couches, sectionals, recliners, dressers, desks, bed frames, mattresses. Heavy and awkward is our job, not yours.</p></li>
