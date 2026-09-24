@@ -99,7 +99,12 @@ main,header,footer{position:relative;z-index:1}
 .facts li{display:flex;align-items:baseline;gap:8px}
 .facts svg{width:14px;height:14px;color:var(--red);flex:none;transform:translateY(1px)}
 
-.reel{position:relative;justify-self:end;width:min(100%,380px)}
+.reel{position:relative;justify-self:end;width:min(100%,380px);isolation:isolate}
+.reel-before{display:none;position:absolute;z-index:-2;left:-56%;top:30%;width:64%;margin:0;transform:rotate(-6deg);transform-origin:bottom right}
+.reel-before img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:5px;border:6px solid var(--panel);box-shadow:0 24px 40px -22px rgba(20,22,26,.55),0 6px 14px -8px rgba(20,22,26,.3)}
+.reel-before span{position:absolute;left:18px;bottom:18px;padding:7px 11px 6px;background:var(--ink);color:#fff;border-radius:3px;font:700 .95rem/1 var(--label);letter-spacing:.06em;text-transform:uppercase}
+@media (min-width:1360px){.reel-before{display:block}}
+.hero .wrap>div:first-child{position:relative;z-index:1}
 .reel-frame{position:relative;aspect-ratio:9/16;border-radius:6px;overflow:hidden;background:var(--navy) center/cover no-repeat;box-shadow:0 30px 60px -30px rgba(20,22,26,.55),0 10px 20px -12px rgba(20,22,26,.35)}
 .reel-frame video{width:100%;height:100%;object-fit:cover;will-change:transform}
 .reel::before{content:"";position:absolute;top:18px;left:18px;width:100%;aspect-ratio:9/16;background:var(--red);border-radius:6px;z-index:-1}
@@ -368,6 +373,7 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
         </ul>
       </div>
       <figure class="reel rv rv-d2">
+        <div class="reel-before" aria-hidden="true"><img src="assets/pile-before.webp" width="900" height="1108" alt=""><span>Before</span></div>
         <div class="reel-frame" style="background-image:url('assets/job-poster.webp')">
           <video id="reel" muted loop playsinline preload="none" poster="assets/job-poster.webp" aria-label="Sped-up video of the Junk Command crew clearing a driveway pile of trash bags and boxes into their pickup truck">
             <source src="assets/job-timelapse.mp4" type="video/mp4">
@@ -462,7 +468,7 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
       </div>
       <ol class="steps">
         <li class="step rv">
-          <div class="step-img"><img src="assets/job-before.webp" width="900" height="1166" loading="lazy" alt="A pile of black trash bags, boxes, and junk stacked against a house before pickup"><span class="step-num" aria-hidden="true"></span></div>
+          <div class="step-img"><img src="assets/pile-before.webp" width="900" height="1108" loading="lazy" alt="A pile of black trash bags, boxes, and junk stacked against a house before pickup"><span class="step-num" aria-hidden="true"></span></div>
           <h3>Text us a photo</h3>
           <p>Snap the pile and send it with your zip code. One photo is enough, more helps.</p>
         </li>
