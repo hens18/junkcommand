@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Junk Command | Junk Removal &amp; Hauling in Miami-Dade</title>
-<meta name="description" content="Junk removal and hauling across Miami-Dade. Text a photo, get a price, and the Junk Command crew does all the lifting. Furniture, appliances, yard waste, construction debris, cleanouts.">
+<meta name="description" content="Residential and commercial junk removal and hauling across Miami-Dade. Text a photo, get a price, and the Junk Command crew does all the lifting. Furniture, appliances, yard waste, construction debris, cleanouts.">
 <meta name="theme-color" content="#B80705">
 <meta property="og:title" content="Junk Command | Junk Removal & Hauling, Miami-Dade">
 <meta property="og:description" content="Text a photo, get a price, we haul it out.">
@@ -116,8 +116,10 @@ main,header,footer{position:relative;z-index:1}
 
 /* stripe band */
 .band{background:var(--night);color:var(--on-dark);overflow:hidden;border-block:6px solid var(--red)}
-.band-track{display:flex;justify-content:center}
-.band-set{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px 30px;padding:22px var(--gutter);font:900 clamp(1.6rem,3vw,2.4rem)/1 var(--display);text-transform:uppercase;letter-spacing:.02em;white-space:nowrap}
+.band-track{display:flex;width:max-content;animation:band-slide 45s linear infinite}
+.band:hover .band-track{animation-play-state:paused}
+@keyframes band-slide{to{transform:translateX(-50%)}}
+.band-set{display:flex;flex:none;align-items:center;gap:30px;padding:22px 15px;font:900 clamp(1.6rem,3vw,2.4rem)/1 var(--display);text-transform:uppercase;letter-spacing:.02em;white-space:nowrap}
 .band-set svg{width:22px;height:22px;color:var(--red);flex:none}
 
 /* section base */
@@ -307,7 +309,7 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
       <a href="#area">Service area</a>
       <a href="#faq">FAQ</a>
     </nav>
-    <a class="btn" href="tel:+13050000000" data-phone-link><svg aria-hidden="true"><use href="#i-phone"/></svg><span class="long" data-phone>(305) 000-0000</span><span class="vh">Call Junk Command</span></a>
+    <a class="btn" href="tel:+13057838401" data-phone-link><svg aria-hidden="true"><use href="#i-phone"/></svg><span class="long" data-phone>(305) 783-8401</span><span class="vh">Call Junk Command</span></a>
   </div>
 </header>
 
@@ -321,10 +323,10 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
           <span class="ln"><span class="red"><span class="stripes" aria-hidden="true"><i></i><i></i><i></i></span>We haul</span></span>
           <span class="ln"><span>it out.</span></span>
         </h1>
-        <p class="lede rv rv-d1">Junk removal and hauling across Miami-Dade. <strong>Text us a photo, get a straight price,</strong> and our crew does all the lifting.</p>
+        <p class="lede rv rv-d1">Junk removal and hauling for homes and businesses across Miami-Dade. <strong>Text us a photo, get a straight price,</strong> and our crew does all the lifting.</p>
         <div class="cta-row rv rv-d2">
-          <a class="btn" href="sms:+13050000000" data-sms-link><svg aria-hidden="true"><use href="#i-msg"/></svg>Text a photo for a price</a>
-          <a class="btn ghost" href="tel:+13050000000" data-phone-link><svg aria-hidden="true"><use href="#i-phone"/></svg>Call us</a>
+          <a class="btn" href="sms:+13057838401" data-sms-link><svg aria-hidden="true"><use href="#i-msg"/></svg>Text a photo for a price</a>
+          <a class="btn ghost" href="tel:+13057838401" data-phone-link><svg aria-hidden="true"><use href="#i-phone"/></svg>Call us</a>
         </div>
         <ul class="facts rv rv-d3">
           <li><svg aria-hidden="true"><use href="#i-star"/></svg>Price before we load</li>
@@ -347,7 +349,8 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
 
   <div class="band" aria-hidden="true">
     <div class="band-track">
-      <div class="band-set"><span>Furniture</span><svg><use href="#i-star"/></svg><span>Appliances</span><svg><use href="#i-star"/></svg><span>Yard waste</span><svg><use href="#i-star"/></svg><span>Construction debris</span><svg><use href="#i-star"/></svg><span>Cleanouts</span></div>
+      <div class="band-set"><span>Furniture</span><svg><use href="#i-star"/></svg><span>Appliances</span><svg><use href="#i-star"/></svg><span>Yard waste</span><svg><use href="#i-star"/></svg><span>Construction debris</span><svg><use href="#i-star"/></svg><span>Cleanouts</span><svg><use href="#i-star"/></svg><span>Residential</span><svg><use href="#i-star"/></svg><span>Commercial</span><svg><use href="#i-star"/></svg></div>
+      <div class="band-set"><span>Furniture</span><svg><use href="#i-star"/></svg><span>Appliances</span><svg><use href="#i-star"/></svg><span>Yard waste</span><svg><use href="#i-star"/></svg><span>Construction debris</span><svg><use href="#i-star"/></svg><span>Cleanouts</span><svg><use href="#i-star"/></svg><span>Residential</span><svg><use href="#i-star"/></svg><span>Commercial</span><svg><use href="#i-star"/></svg></div>
     </div>
   </div>
 
@@ -410,7 +413,7 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
           <div class="gauge-marks" aria-hidden="true"><span>Min</span><span>1/4</span><span>1/2</span><span>3/4</span><span>Full</span></div>
           <p class="load-note" id="load-note">Tap the plus buttons to add what's going.</p>
           <div class="cta-row">
-            <a class="btn" id="send-list" href="sms:+13050000000" aria-disabled="true"><svg aria-hidden="true"><use href="#i-msg"/></svg>Text us this list</a>
+            <a class="btn" id="send-list" href="sms:+13057838401" aria-disabled="true"><svg aria-hidden="true"><use href="#i-msg"/></svg>Text us this list</a>
             <button class="btn ghost" id="reset" type="button">Start over</button>
           </div>
         </div>
@@ -422,7 +425,7 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
     <div class="wrap">
       <div class="steps-head">
         <h2 class="h2 rv" id="how-h">Three texts and it's gone.</h2>
-        <a class="btn rv rv-d1" href="sms:+13050000000" data-sms-link><svg aria-hidden="true"><use href="#i-msg"/></svg>Start with a photo</a>
+        <a class="btn rv rv-d1" href="sms:+13057838401" data-sms-link><svg aria-hidden="true"><use href="#i-msg"/></svg>Start with a photo</a>
       </div>
       <ol class="steps">
         <li class="step rv">
@@ -493,9 +496,9 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
       <div>
         <h2 class="h2 rv" id="final-h">Got junk?<br><span class="red">Give the command.</span></h2>
         <p class="intro rv rv-d1">The fastest way to a price is a text with a photo. Or call and tell us what's going.</p>
-        <a class="big-phone rv rv-d2" href="tel:+13050000000" data-phone-link data-phone>(305) 000-0000</a>
+        <a class="big-phone rv rv-d2" href="tel:+13057838401" data-phone-link data-phone>(305) 783-8401</a>
         <div class="cta-row rv rv-d2">
-          <a class="btn" href="sms:+13050000000" data-sms-link><svg aria-hidden="true"><use href="#i-msg"/></svg>Text a photo</a>
+          <a class="btn" href="sms:+13057838401" data-sms-link><svg aria-hidden="true"><use href="#i-msg"/></svg>Text a photo</a>
           <a class="btn ghost" href="https://www.instagram.com/junkcommandmiami/" rel="noopener" target="_blank">See us on Instagram</a>
         </div>
       </div>
@@ -544,15 +547,15 @@ body.paused *,body.paused *::before,body.paused *::after{animation-play-state:pa
 </footer>
 
 <div class="bar" id="bar">
-  <a class="btn" href="sms:+13050000000" data-sms-link><svg aria-hidden="true"><use href="#i-msg"/></svg>Text a photo</a>
-  <a class="btn ghost" href="tel:+13050000000" data-phone-link><svg aria-hidden="true"><use href="#i-phone"/></svg>Call</a>
+  <a class="btn" href="sms:+13057838401" data-sms-link><svg aria-hidden="true"><use href="#i-msg"/></svg>Text a photo</a>
+  <a class="btn ghost" href="tel:+13057838401" data-phone-link><svg aria-hidden="true"><use href="#i-phone"/></svg>Call</a>
 </div>
 
 <script>
 (function(){
   // One place to change the business phone number.
-  var PHONE_DIGITS = '3050000000';
-  var PHONE_PRETTY = '(305) 000-0000';
+  var PHONE_DIGITS = '3057838401';
+  var PHONE_PRETTY = '(305) 783-8401';
 
   var doc = document.documentElement;
   doc.classList.add('js');

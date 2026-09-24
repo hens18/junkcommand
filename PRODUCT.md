@@ -10,6 +10,7 @@ Crew in navy uniform tees and caps, a white pickup truck, a yard sign that reads
 - Yard waste
 - Construction debris
 - Cleanouts and more
+- Residential and commercial (Instagram bio)
 
 ## Audience
 Miami-Dade homeowners, renters moving out, landlords and property managers turning units, realtors prepping listings,
@@ -30,7 +31,7 @@ heavy red "JUNK" over black "COMMAND". Palette: brand red #B80705, black, white;
 Voice: plain, confident, a little swagger, never corporate.
 
 ## Assumptions (unconfirmed, flagged to the owner)
-- Phone number: yard sign shows 305-783-840_ (last digit cut off in footage). Site uses a placeholder.
+- Phone confirmed from Instagram bio: 305-783-8401.
 - Email, hours, pricing, service radius, licensing/insurance, and what they refuse (hazmat, paint, etc.) are unconfirmed.
 - No customer reviews supplied; none are invented.
 - Contact form has no backend yet; demo success state only.
